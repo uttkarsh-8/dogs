@@ -1,5 +1,7 @@
 package dogs
 
-func sit() string {
-	return "the dog is sitting!!"
+import "strings"
+
+func WhenGrownUp(s string) string {
+	return "When puppy grows up it says: " + strings.ToUpper(s)
 }
